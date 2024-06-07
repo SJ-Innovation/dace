@@ -1,0 +1,217 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "_deps/dace-build",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.dace-build-Debug-a1945eae6581130b1ba0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/dace-src"
+				},
+				{
+					"build" : "_deps/dace-build/core/contrib",
+					"jsonFile" : "directory-_deps.dace-build.core.contrib-Debug-2dcf012923aeee308ade.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/dace-src/core/contrib",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"build" : "_deps/dace-build/core",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.dace-build.core-Debug-8967f38ae5b61f2fa349.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/dace-src/core",
+					"targetIndexes" : 
+					[
+						0,
+						3
+					]
+				},
+				{
+					"build" : "_deps/dace-build/interfaces/cxx",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.dace-build.interfaces.cxx-Debug-6a928d280fa715ff5183.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/dace-src/interfaces/cxx",
+					"targetIndexes" : 
+					[
+						4,
+						5,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "dace_test",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "DACE",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "c_core::@dc9c3596b23d5483b2f6",
+					"jsonFile" : "target-c_core-Debug-f9583bdf2a5f8eecf34f.json",
+					"name" : "c_core",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "c_core_contrib::@6e5d29348c1989447eba",
+					"jsonFile" : "target-c_core_contrib-Debug-601e311f5cae27d33552.json",
+					"name" : "c_core_contrib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "c_core_contrib_s::@6e5d29348c1989447eba",
+					"jsonFile" : "target-c_core_contrib_s-Debug-99bc1d56e1fe49cecaec.json",
+					"name" : "c_core_contrib_s",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "c_core_s::@dc9c3596b23d5483b2f6",
+					"jsonFile" : "target-c_core_s-Debug-1a5a8d25a5ac5ec75877.json",
+					"name" : "c_core_s",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "dace::@805e84bcf5faba2eb22d",
+					"jsonFile" : "target-dace-Debug-a41f292500daa5904ce0.json",
+					"name" : "dace",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "dace_s::@805e84bcf5faba2eb22d",
+					"jsonFile" : "target-dace_s-Debug-33be550292612e50b2ab.json",
+					"name" : "dace_s",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dace_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dace_test-Debug-3843e37b5d509568c6bd.json",
+					"name" : "dace_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "dacecxx::@805e84bcf5faba2eb22d",
+					"jsonFile" : "target-dacecxx-Debug-fb247c99c684c8179382.json",
+					"name" : "dacecxx",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "dacecxx_s::@805e84bcf5faba2eb22d",
+					"jsonFile" : "target-dacecxx_s-Debug-68943c1b814a91c8f752.json",
+					"name" : "dacecxx_s",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/dace_test/cmake-build-debug",
+		"source" : "D:/dace_test"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

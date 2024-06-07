@@ -1,0 +1,292 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "_deps/dace-build/interfaces/cxx/libdace_s.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"add_compile_options",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"cmake-build-debug/_deps/dace-src/interfaces/cxx/CMakeLists.txt",
+			"cmake-build-debug/_deps/dace-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 59,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 116,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 117,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 119,
+				"parent" : 3
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "c_core_contrib_s::@6e5d29348c1989447eba"
+		},
+		{
+			"id" : "c_core_s::@dc9c3596b23d5483b2f6"
+		},
+		{
+			"id" : "dacecxx_s::@805e84bcf5faba2eb22d"
+		}
+	],
+	"id" : "dace_s::@805e84bcf5faba2eb22d",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/dace_test"
+		}
+	},
+	"name" : "dace_s",
+	"nameOnDisk" : "libdace_s.a",
+	"paths" : 
+	{
+		"build" : "_deps/dace-build/interfaces/cxx",
+		"source" : "cmake-build-debug/_deps/dace-src/interfaces/cxx"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/dace-build/core/CMakeFiles/c_core_s.dir/daceaux.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/dace-build/core/CMakeFiles/c_core_s.dir/dacebasic.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/dace-build/core/CMakeFiles/c_core_s.dir/dacecompat.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/dace-build/core/CMakeFiles/c_core_s.dir/daceerror.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/dace-build/core/CMakeFiles/c_core_s.dir/daceeval.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/dace-build/core/CMakeFiles/c_core_s.dir/daceinit.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/dace-build/core/CMakeFiles/c_core_s.dir/daceio.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/dace-build/core/CMakeFiles/c_core_s.dir/dacemath.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/dace-build/core/CMakeFiles/c_core_s.dir/dacememory.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/dace-build/core/CMakeFiles/c_core_s.dir/dacenorm.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/dace-build/core/contrib/CMakeFiles/c_core_contrib_s.dir/libf2c.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/dace-build/core/contrib/CMakeFiles/c_core_contrib_s.dir/dgamma.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/dace-build/core/contrib/CMakeFiles/c_core_contrib_s.dir/ribesl.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/dace-build/core/contrib/CMakeFiles/c_core_contrib_s.dir/rjbesl.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/dace-build/core/contrib/CMakeFiles/c_core_contrib_s.dir/rkbesl.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/dace-build/core/contrib/CMakeFiles/c_core_contrib_s.dir/rybesl.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/dace-build/core/contrib/CMakeFiles/c_core_contrib_s.dir/psi.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/dace-build/core/contrib/CMakeFiles/c_core_contrib_s.dir/zeta.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/dace-build/interfaces/cxx/CMakeFiles/dacecxx_s.dir/AlgebraicVector.cpp.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/dace-build/interfaces/cxx/CMakeFiles/dacecxx_s.dir/DA.cpp.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/dace-build/interfaces/cxx/CMakeFiles/dacecxx_s.dir/DACEException.cpp.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/dace-build/interfaces/cxx/CMakeFiles/dacecxx_s.dir/DAFormatter.cpp.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/dace-build/interfaces/cxx/CMakeFiles/dacecxx_s.dir/MathExtension.cpp.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/dace-build/interfaces/cxx/CMakeFiles/dacecxx_s.dir/Monomial.cpp.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/dace-build/interfaces/cxx/CMakeFiles/dacecxx_s.dir/compiledDA.cpp.obj",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

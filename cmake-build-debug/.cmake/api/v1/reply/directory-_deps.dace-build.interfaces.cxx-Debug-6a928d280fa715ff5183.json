@@ -1,0 +1,137 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"cmake-build-debug/_deps/dace-src/interfaces/cxx/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 52,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 75,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 76,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/dace-build/interfaces/cxx/libdace.dll.a"
+			],
+			"targetId" : "dace::@805e84bcf5faba2eb22d",
+			"targetIndex" : 4,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/dace-build/interfaces/cxx/libdace.dll"
+			],
+			"targetId" : "dace::@805e84bcf5faba2eb22d",
+			"targetIndex" : 4,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/dace-build/interfaces/cxx/libdace_s.a"
+			],
+			"targetId" : "dace_s::@805e84bcf5faba2eb22d",
+			"targetIndex" : 5,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "headers",
+			"destination" : "include",
+			"paths" : 
+			[
+				"cmake-build-debug/_deps/dace-src/interfaces/cxx/include/dace"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "cmake",
+			"destination" : "lib/cmake/dace",
+			"exportName" : "dace",
+			"exportTargets" : 
+			[
+				{
+					"id" : "dace::@805e84bcf5faba2eb22d",
+					"index" : 4
+				},
+				{
+					"id" : "dace_s::@805e84bcf5faba2eb22d",
+					"index" : 5
+				}
+			],
+			"paths" : 
+			[
+				"_deps/dace-build/interfaces/cxx/CMakeFiles/Export/5e79672d27c9fe13631e10308b50f40a/dace.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "cmake",
+			"destination" : "lib/cmake/dace",
+			"paths" : 
+			[
+				"cmake-build-debug/_deps/dace-build/interfaces/cxx/dace/daceConfig.cmake",
+				"cmake-build-debug/_deps/dace-build/interfaces/cxx/dace/daceConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/dace-build/interfaces/cxx",
+		"source" : "cmake-build-debug/_deps/dace-src/interfaces/cxx"
+	}
+}

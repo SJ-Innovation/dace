@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/dace_test/cmake-build-debug/_deps/dace-subbuild/CMakeFiles/dace-populate"
+		},
+		{
+			"file" : "D:/dace_test/cmake-build-debug/_deps/dace-subbuild/CMakeFiles/dace-populate.rule"
+		},
+		{
+			"file" : "D:/dace_test/cmake-build-debug/_deps/dace-subbuild/CMakeFiles/dace-populate-complete.rule"
+		},
+		{
+			"file" : "D:/dace_test/cmake-build-debug/_deps/dace-subbuild/dace-populate-prefix/src/dace-populate-stamp/dace-populate-build.rule"
+		},
+		{
+			"file" : "D:/dace_test/cmake-build-debug/_deps/dace-subbuild/dace-populate-prefix/src/dace-populate-stamp/dace-populate-configure.rule"
+		},
+		{
+			"file" : "D:/dace_test/cmake-build-debug/_deps/dace-subbuild/dace-populate-prefix/src/dace-populate-stamp/dace-populate-download.rule"
+		},
+		{
+			"file" : "D:/dace_test/cmake-build-debug/_deps/dace-subbuild/dace-populate-prefix/src/dace-populate-stamp/dace-populate-install.rule"
+		},
+		{
+			"file" : "D:/dace_test/cmake-build-debug/_deps/dace-subbuild/dace-populate-prefix/src/dace-populate-stamp/dace-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/dace_test/cmake-build-debug/_deps/dace-subbuild/dace-populate-prefix/src/dace-populate-stamp/dace-populate-patch.rule"
+		},
+		{
+			"file" : "D:/dace_test/cmake-build-debug/_deps/dace-subbuild/dace-populate-prefix/src/dace-populate-stamp/dace-populate-test.rule"
+		},
+		{
+			"file" : "D:/dace_test/cmake-build-debug/_deps/dace-subbuild/dace-populate-prefix/src/dace-populate-stamp/dace-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"dace-populate"
+		],
+		"name" : "dace-populate"
+	}
+}

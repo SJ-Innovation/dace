@@ -1,0 +1,219 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "_deps/dace-build/core/contrib/CMakeFiles/c_core_contrib.dir/./libf2c.c.obj"
+		},
+		{
+			"path" : "_deps/dace-build/core/contrib/CMakeFiles/c_core_contrib.dir/./dgamma.c.obj"
+		},
+		{
+			"path" : "_deps/dace-build/core/contrib/CMakeFiles/c_core_contrib.dir/./ribesl.c.obj"
+		},
+		{
+			"path" : "_deps/dace-build/core/contrib/CMakeFiles/c_core_contrib.dir/./rjbesl.c.obj"
+		},
+		{
+			"path" : "_deps/dace-build/core/contrib/CMakeFiles/c_core_contrib.dir/./rkbesl.c.obj"
+		},
+		{
+			"path" : "_deps/dace-build/core/contrib/CMakeFiles/c_core_contrib.dir/./rybesl.c.obj"
+		},
+		{
+			"path" : "_deps/dace-build/core/contrib/CMakeFiles/c_core_contrib.dir/./psi.c.obj"
+		},
+		{
+			"path" : "_deps/dace-build/core/contrib/CMakeFiles/c_core_contrib.dir/./zeta.c.obj"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_compile_options",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"cmake-build-debug/_deps/dace-src/core/contrib/CMakeLists.txt",
+			"cmake-build-debug/_deps/dace-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 59,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 116,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 117,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 119,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu99 -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "D:/dace_test/cmake-build-debug/_deps/dace-src/core/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/dace_test/cmake-build-debug/_deps/dace-build/core/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/dace_test/cmake-build-debug/_deps/dace-src/interfaces/cxx/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/dace_test/cmake-build-debug/_deps/dace-src/core/contrib/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "99"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
+			]
+		}
+	],
+	"id" : "c_core_contrib::@6e5d29348c1989447eba",
+	"name" : "c_core_contrib",
+	"paths" : 
+	{
+		"build" : "_deps/dace-build/core/contrib",
+		"source" : "cmake-build-debug/_deps/dace-src/core/contrib"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/dace-src/core/contrib/libf2c.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/dace-src/core/contrib/dgamma.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/dace-src/core/contrib/ribesl.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/dace-src/core/contrib/rjbesl.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/dace-src/core/contrib/rkbesl.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/dace-src/core/contrib/rybesl.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/dace-src/core/contrib/psi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/dace-src/core/contrib/zeta.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

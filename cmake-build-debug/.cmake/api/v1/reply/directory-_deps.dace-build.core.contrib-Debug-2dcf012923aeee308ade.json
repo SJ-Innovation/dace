@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "_deps/dace-build/core/contrib",
+		"source" : "cmake-build-debug/_deps/dace-src/core/contrib"
+	}
+}
